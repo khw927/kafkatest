@@ -1,0 +1,12 @@
+
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ÿ¨ύ°ψÿÿÿÿ8Ή°Η3J$e5b87dce-1cb1-4aba-af72-222a232fb7ee
+	java:S112)"FDefine and throw a dedicated exception instead of using a generic one.(¥Ε8ξ²Η3J$2c26d41a-cc6e-4a97-b1be-0cddf5cc17d6
+΄
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÿ¨ύ°ψÿÿÿÿ8Η°Η3J$647df900-a9b2-4414-ba16-1d803114a0c7
+m	java:S106"+Replace this use of System.out by a logger.(‘”Ò”8χάτΕ3J$2edb0c40-3cb2-4c4d-a47b-ce56326d1dbe
+―
+java:S1130)"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(¥Ε8€‘²Η3J$caf7b86e-ce43-45aa-b3ac-864f2381b241
+l	java:S106*"+Replace this use of System.out by a logger.(Τ°Π[8Ρ±Η3J$31aa3df5-01cd-4b11-acfa-49aebcca4314
+x
+java:S1128
+"0Remove this unused import 'java.io.IOException'.(ªΊ»Ϊύÿÿÿÿ8‘²Η3J$dbb7b131-8717-498e-9568-0e569f65e7c8

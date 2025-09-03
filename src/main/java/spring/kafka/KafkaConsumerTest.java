@@ -24,10 +24,19 @@ public class KafkaConsumerTest {
                 .build();
     }
 
-    // 서버에 해당 그룹의 해당 토픽 명이 들어오면 메세지 수신
+    /**
+     * 서버에 해당 그룹의 해당 토픽 명이 들어오면 메세지 수신
+     *
+     * @param message 수신할 메세지
+     * @throws Exception 메세지가 빈 경우 예외 발생
+     */
     @KafkaListener(topics = "hwTopic1", groupId = "hw_kafka_group")
     public void listener1(String message) throws Exception {
         System.out.println("data1 = " + message);
+
+        if (message.isBlank()){
+            throw new Exception("message is blank");
+        }
     }
 
     @Bean

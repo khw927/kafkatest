@@ -5,6 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
+ * kafka test application
+ *
  * @author hyewon
  * @version 1.0
  */

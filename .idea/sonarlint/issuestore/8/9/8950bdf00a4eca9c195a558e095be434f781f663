@@ -1,9 +1,8 @@
 
-ˆ	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Èô³§8æõ¤Ë3J$0f1f8b62-8dc1-4720-9966-2fc44fece3fe
-	java:S112*"FDefine and throw a dedicated exception instead of using a generic one.(ÅŒµ¸şÿÿÿÿ8çõ¤Ë3J$c33b166f-c0b6-4c8f-9a6c-467eb4322363
-¯
-java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(Èô³§8„‡ùÌ3J$8b218ecb-fc58-4b9d-bbbe-995be6db38d9
-r	java:S106"+Replace this use of System.out by a logger.(Üóæûøÿÿÿÿ8†‡ùÌ3J$4ec67046-aae7-4b80-9776-192e05cc570d
+	java:S112&"FDefine and throw a dedicated exception instead of using a generic one.(ŸÀ†Äüÿÿÿÿ8çõ¤Ë3J$47b5de9b-a6d8-44ea-a5ef-5c5f6d27b7e4
+ˆ	java:S112""FDefine and throw a dedicated exception instead of using a generic one.(Èô³§8ÒµÆê3J$9dd93a6c-7a9d-4891-875b-1a85a5e4103b
+	java:S1123"FDefine and throw a dedicated exception instead of using a generic one.(ÅŒµ¸şÿÿÿÿ8ÖÜÈê3J$2cba5f94-abbf-4c7c-9922-473e885e86b2
+r	java:S106#"+Replace this use of System.out by a logger.(Üóæûøÿÿÿÿ8†‡ùÌ3J$02c9551b-a2b8-4575-aa13-94cae3fc829b
 ´
-java:S1130*"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÅŒµ¸şÿÿÿÿ8†‡ùÌ3J$75e5170d-eebf-4f5d-9f1a-004cae8d9df5
-r	java:S106+"+Replace this use of System.out by a logger.(¢ÒÀŞüÿÿÿÿ8‡‡ùÌ3J$277be9e4-aa07-4826-bf88-0b6816b96e73
+java:S11303"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÅŒµ¸şÿÿÿÿ8àµÆê3J$6eabf30f-75e9-4297-b215-126c490a3687
+r	java:S1064"+Replace this use of System.out by a logger.(¢ÒÀŞüÿÿÿÿ8‡‡ùÌ3J$472f9448-a7a0-4aec-af28-29f0e27848f0

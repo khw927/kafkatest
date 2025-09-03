@@ -15,7 +15,11 @@ import org.springframework.stereotype.Component;
 @Component
 public class KafkaConsumerTest {
 
-    // 서버에 해당되는 이름의 토픽이 없으면 새로 생성
+    /**
+     * 서버에 해당되는 이름의 토픽이 없으면 새로 생성
+     *
+     * @return New Topic 생성된 토픽
+     */
     @Bean
     public NewTopic hwTopic1() {
         return TopicBuilder.name("hwTopic1")

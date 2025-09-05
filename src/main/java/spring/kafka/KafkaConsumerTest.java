@@ -23,7 +23,7 @@ public class KafkaConsumerTest {
     @Bean
     public NewTopic hwTopic1() {
         return TopicBuilder.name("hwTopic1")
-                .partitions(10) // 10개의 파티션으로 분할
+                .partitions(2) // partitionCount 수만큼 파티션 분할
                 .replicas(1) // 1개의 레플리카로 복제
                 .build();
     }
@@ -46,7 +46,7 @@ public class KafkaConsumerTest {
     @Bean
     public NewTopic hwTopic2() {
         return TopicBuilder.name("hwTopic2")
-                .partitions(10) // 10개의 파티션으로 분할
+                .partitions(2) // partitionCount 수만큼 파티션 분할
                 .replicas(1) // 1개의 레플리카로 복제
                 .build();
     }
